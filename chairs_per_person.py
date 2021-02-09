@@ -1,5 +1,6 @@
 f = open("reservations.csv")
 
+# Her er en kommentar
 for reservation in f:
     name, number = reservation.split(",")
     chairs_per_person = 50 / int(number)
